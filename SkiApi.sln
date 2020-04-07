@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiApi", "SkiApi\SkiApi.csproj", "{F8C1CFD8-E162-4FA2-B888-71E1CC5356AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8C1CFD8-E162-4FA2-B888-71E1CC5356AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8C1CFD8-E162-4FA2-B888-71E1CC5356AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8C1CFD8-E162-4FA2-B888-71E1CC5356AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8C1CFD8-E162-4FA2-B888-71E1CC5356AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E23E4635-47B8-4F39-BFDF-755B4D43A962}
+	EndGlobalSection
+EndGlobal
