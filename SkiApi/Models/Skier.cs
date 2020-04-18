@@ -15,5 +15,6 @@ namespace SkiApi.Models
 
         public int Age { get; set; }
 
+
     }
 }

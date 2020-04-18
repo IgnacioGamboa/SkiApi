@@ -15,5 +15,17 @@ namespace SkiApi.Data
         }
 
         public DbSet<SkiApi.Models.Skier> Skiers { get; set; }
+        public DbSet<SkiApi.Models.Winner> Winners { get; set; }
+        public DbSet<SkiApi.Models.Race> Races { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Race>()
+                .HasMany(p => p.Winners)
+                .WithOne(b => b.Race);
+
+            modelBuilder.Entity<Winner>()
+                 .HasKey(pc => new { pc.Year , pc.RaceId });
+        }
     }
 }
